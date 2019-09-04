@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Database1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdNews" Type="nvarchar(max)" />
+    <Property Name="Author" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Table2">
+    <Key>
+      <PropertyRef Name="Id1" />
+    </Key>
+    <Property Name="Id1" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdNews1" Type="nvarchar(max)" />
+    <Property Name="LikeCount" Type="nvarchar(max)" />
+    <Property Name="RepostCount" Type="nvarchar(max)" />
+    <Property Name="Viewes" Type="nvarchar(max)" />
+    <Property Name="Time" Type="nvarchar(max)" />
+    <Property Name="Text" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Table3">
+    <Key>
+      <PropertyRef Name="Id2" />
+    </Key>
+    <Property Name="Id2" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdNews2" Type="nvarchar(max)" />
+    <Property Name="Picture" Type="nvarchar(max)" />
+    <Property Name="Path" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="Хранилище Database1ModelContainer">
+    <EntitySet Name="Table" EntityType="Self.Table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table2" EntityType="Self.Table2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Table3" EntityType="Self.Table3" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

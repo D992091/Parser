@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Database1ModelContainer" CdmEntityContainer="Database1Entities1">
+    <EntitySetMapping Name="Tables">
+      <EntityTypeMapping TypeName="Database1Model.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="Лайки" ColumnName="Лайки" />
+          <ScalarProperty Name="Репосты" ColumnName="Репосты" />
+          <ScalarProperty Name="Просмотры" ColumnName="Просмотры" />
+          <ScalarProperty Name="Ссылка_на_автора" ColumnName="Ссылка на автора" />
+          <ScalarProperty Name="Время_поста" ColumnName="Время поста" />
+          <ScalarProperty Name="Текст" ColumnName="Текст" />
+          <ScalarProperty Name="Ссылки_на_изображения" ColumnName="Ссылки на изображения" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

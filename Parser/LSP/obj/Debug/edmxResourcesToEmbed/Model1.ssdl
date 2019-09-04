@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Database1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "C:\USERS\DANIIL\SOURCE\REPOS\LSP\LSP\DATABASE1.MDF.dbo.Table" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="Table">
+    <Key>
+      <PropertyRef Name="Лайки" />
+      <PropertyRef Name="Репосты" />
+      <PropertyRef Name="Просмотры" />
+      <PropertyRef Name="Ссылка на автора" />
+      <PropertyRef Name="Время поста" />
+      <PropertyRef Name="Текст" />
+      <PropertyRef Name="Ссылки на изображения" />
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Лайки" Type="text" Nullable="false" />
+    <Property Name="Репосты" Type="text" Nullable="false" />
+    <Property Name="Просмотры" Type="text" Nullable="false" />
+    <Property Name="Ссылка на автора" Type="text" Nullable="false" />
+    <Property Name="Время поста" Type="text" Nullable="false" />
+    <Property Name="Текст" Type="text" Nullable="false" />
+    <Property Name="Ссылки на изображения" Type="text" Nullable="false" />
+    <Property Name="Id" Type="text" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Хранилище Database1ModelContainer">
+    <EntitySet Name="Table" EntityType="Self.Table" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Table].[Лайки] AS [Лайки], 
+    [Table].[Репосты] AS [Репосты], 
+    [Table].[Просмотры] AS [Просмотры], 
+    [Table].[Ссылка на автора] AS [Ссылка на автора], 
+    [Table].[Время поста] AS [Время поста], 
+    [Table].[Текст] AS [Текст], 
+    [Table].[Ссылки на изображения] AS [Ссылки на изображения], 
+    [Table].[Id] AS [Id]
+    FROM [dbo].[Table] AS [Table]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Database1ModelContainer" CdmEntityContainer="Database1Entities">
+    <EntitySetMapping Name="Table2">
+      <EntityTypeMapping TypeName="Database1Model.Table2">
+        <MappingFragment StoreEntitySet="Table2">
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Viewes" ColumnName="Viewes" />
+          <ScalarProperty Name="RepostCount" ColumnName="RepostCount" />
+          <ScalarProperty Name="LikeCount" ColumnName="LikeCount" />
+          <ScalarProperty Name="IdNews1" ColumnName="IdNews1" />
+          <ScalarProperty Name="Id1" ColumnName="Id1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table1">
+      <EntityTypeMapping TypeName="Database1Model.Table1">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="IdNews" ColumnName="IdNews" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Table3">
+      <EntityTypeMapping TypeName="Database1Model.Table3">
+        <MappingFragment StoreEntitySet="Table3">
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Picture" ColumnName="Picture" />
+          <ScalarProperty Name="IdNews2" ColumnName="IdNews2" />
+          <ScalarProperty Name="Id2" ColumnName="Id2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

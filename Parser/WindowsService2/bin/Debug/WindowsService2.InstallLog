@@ -1,0 +1,65 @@
+﻿Выполняется установка сборки 'C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe
+   logfile = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.InstallLog
+Отсутствуют общие программы установки с атрибутом RunInstallerAttribute.Yes в сборке C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe.
+Выполняется фиксация сборки 'C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe
+   logfile = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.InstallLog
+Отсутствуют общие программы установки с атрибутом RunInstallerAttribute.Yes в сборке C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe.
+Удалите файл InstallState, поскольку отсутствуют программы установки.
+Выполняется установка сборки 'C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe
+   logfile = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.InstallLog
+Отсутствуют общие программы установки с атрибутом RunInstallerAttribute.Yes в сборке C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe.
+Выполняется фиксация сборки 'C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe
+   logfile = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.InstallLog
+Отсутствуют общие программы установки с атрибутом RunInstallerAttribute.Yes в сборке C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe.
+Удалите файл InstallState, поскольку отсутствуют программы установки.
+Выполняется установка сборки 'C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe
+   logfile = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.InstallLog
+Отсутствуют общие программы установки с атрибутом RunInstallerAttribute.Yes в сборке C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe.
+Выполняется фиксация сборки 'C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe
+   logfile = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.InstallLog
+Отсутствуют общие программы установки с атрибутом RunInstallerAttribute.Yes в сборке C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe.
+Удалите файл InstallState, поскольку отсутствуют программы установки.
+Выполняется установка сборки 'C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe
+   logfile = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.InstallLog
+Отсутствуют общие программы установки с атрибутом RunInstallerAttribute.Yes в сборке C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe.
+Выполняется фиксация сборки 'C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe
+   logfile = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.InstallLog
+Отсутствуют общие программы установки с атрибутом RunInstallerAttribute.Yes в сборке C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe.
+Удалите файл InstallState, поскольку отсутствуют программы установки.
+Выполняется установка сборки 'C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe
+   logfile = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.InstallLog
+Устанавливается служба Service1...
+Служба Service1 успешно установлена.
+Создается исходный EventLog Service1 в журнале Application...
+Выполняется фиксация сборки 'C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   assemblypath = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.exe
+   logfile = C:\Users\Daniil\source\repos\LSP\WindowsService2\bin\Debug\WindowsService2.InstallLog
